@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { io, Socket } from 'socket.io-client';
 import axios from 'axios';
 
-const API_BASE = '/_/backend/api';
+const API_BASE = '/api';
 const SOCKET_URL = window.location.origin;;
 
 // ── Types ──────────────────────────────────────────────────────────────────
