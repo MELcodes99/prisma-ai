@@ -1,0 +1,37 @@
+{
+  "name": "prisma-ai-backend",
+  "version": "1.0.0",
+  "description": "PrismaAI Backend - Solana Smart Transaction Stack",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "bounty:run": "ts-node src/scripts/runBountySubmissions.ts",
+    "bounty:logs": "ts-node src/scripts/exportLogs.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.8",
+    "@upstash/redis": "^1.28.4",
+    "axios": "^1.6.8",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "openai": "^4.38.0",
+    "socket.io": "^4.7.5",
+    "winston": "^3.13.0",
+    "ws": "^8.17.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}

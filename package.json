@@ -1,0 +1,13 @@
+{
+  "name": "prisma-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Tip Oracle with Real-Time Slot Intelligence for Solana",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
