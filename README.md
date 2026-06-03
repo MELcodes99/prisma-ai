@@ -16,6 +16,10 @@
 [![Yellowstone](https://img.shields.io/badge/Yellowstone-gRPC-blue?style=flat-square)](https://solinfra.dev)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green?style=flat-square)](https://openai.com)
 
+**📐 Architecture Document:** 
+https://outstanding-attention-cce.notion.site/PRISMA-AI-374853d3ebb880ce9617e49f56b8e419?pvs=74
+
+
 </div>
 
 ---
